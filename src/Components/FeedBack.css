@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(rgb(151, 219, 246),rgb(238, 119, 139),white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(34, 5, 122);
+}
+
+form{
+    text-align: center;
+ }
+ label{
+     font-weight: 600;
+     font-size: 28px;
+ }
+ input{
+     padding: 12px 20px;
+     margin: 20px;
+     width: 230px;
+     height: 30px;
+     border: 2px solid rgb(65, 64, 64);
+     border-radius: 25px;
+     background-color:rgb(180, 245, 242);
+     font-size: 25px;
+ }
+ input[type="submit"]{
+     background-color: rgb(122, 230, 225);
+     width: 250px;
+     height: 60px;
+     border-radius: 25px;
+     font-size: 25px; 
+     font-weight: bold; 
+ }
+ input[type="submit"]:hover{
+    background-color: aqua;
+ }
+ 
+.outerbox{
+    margin-left: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color:lightskyblue;
+    width:1200px;
+}
+.databox{
+    border: 2px solid black;
+    margin: 30px 60px;
+    padding: 30px;
+    width: 420px;
+    border-radius: 25px;
+    background-color:fuchsia;
+    font-size: large;
+}
+button{
+    margin-left: 40%;
+    margin-top: 70px;
+    background-color: rgb(43, 182, 237);
+    padding: 18px 30px;
+    border-radius: 25px;
+    width: 25%;
+    font-size: 20px;
+}
+button:hover{
+    background-color: aqua;
+}
